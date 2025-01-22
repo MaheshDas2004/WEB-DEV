@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+}
+.table-container{
+    max-width: 600px;
+    background-color: rgb(188, 72, 167);
+    margin-top: 10px;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+thead{
+    background-color: yellow;
+    color: rgb(255, 47, 0);
+}
+th,td{
+    padding: 10px;
+    text-align: center;
+    border: 2px solid rgb(13, 7, 52);
+}
+tr:hover{
+    background-color: rgb(13, 7, 52);
+    color: white;
+}
+td:hover{
+    color:red ;
+}
+tfoot{
+    background-color: rgb(255, 204, 0);
+    color: rgb(160, 28, 28);
+}

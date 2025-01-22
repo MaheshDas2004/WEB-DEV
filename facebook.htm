@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 60px;
+        }
+        .c1{
+            width: 600px;
+            padding: 20px;
+            margin: 20px;
+        }
+        .c1 h1{
+            color: blue;
+            font-size: 70px;
+        }
+        .c1 p{
+            margin-top: 20px;
+            word-wrap: break-word;
+            font-size: 30px
+        }
+        .c2{
+            margin: 20px;
+            border: none;
+            background-color:white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+            padding: 20px;
+            width: 400px;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            /* padding: 10px; */
+            justify-content: center;
+            align-items: center;
+        }
+        form input{
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid lightgray;
+            background: transparent;
+            border-radius: 10px;
+            height: 40px;
+            width: 300px;
+        }
+        form a{
+            padding: 10px;
+            text-align: center;
+            color: blue;
+        }
+        #btn1{
+            padding: 10px;
+            margin: 10px;
+            border: none;
+            border-radius: 10px;
+            background-color: blue;
+            color: white;
+            width: 300px;
+        }
+        #btn2{
+            padding: 10px;
+            margin: 10px;
+            border: none;
+            border-radius: 10px;
+            background-color: green;
+            color: white;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="c1">
+        <h1>facebook</h1>
+        <p>Facebook helps you connect and share with the people in your life.</p>
+    </div>
+    <div class="c2">
+        <form action="">
+            <input type="text" placeholder="Email address or phone number">
+            <input type="password" placeholder="Password">
+            <button id="btn1">Log In</button>
+            <a href="#">Forgotten password?</a>
+            <hr>
+            <button id="btn2">Create New Account</button>
+        </form>
+
+    </div>
+</body>
+</html>
